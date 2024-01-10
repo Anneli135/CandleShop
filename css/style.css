@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,200&display=swap');
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+
+    ;
+    
+}
+
+.intro-image {
+    background-attachment: fixed;
+background-image: url("../img/image1.jpg");
+background-size: cover;
+background-position: bottom;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.intro-image__text a {
+    background-color:#73494e79;
+    color: #dadad6;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text
+{
+    background-color: #717675;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    clip-path: polygon(51% 12%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+    margin-top: -2rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+
+.packaging-image__text a {
+    background-color:#7176759c;
+    color: #dadad6;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url("../img/image2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-text {
+    background-color: #717675;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+    margin-top: -2rem;
+}
+
+.packaging-text h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url("../img/image3.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tutorials-image__text a {
+    background-color:#73494e73;
+    color: #dadad6;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+
+.footer  {
+    background-color: #73494ed3;
+    height: 230px;
+    color: #dadad6;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #73494ed3;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #dadad6;
+}
+
+.footer ul li:hover {
+    transform: scale(1.3);
+}
